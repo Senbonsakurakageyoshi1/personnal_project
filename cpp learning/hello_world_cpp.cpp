@@ -8,8 +8,11 @@ using namespace std;
 int main()
 {
 	// prints hello world
-	cout << "Hello World";
-	cout << "senbonsakura";
+	int answer {42};
+	
+	std::cout << "The answer to life,the universe,and   everything is "
+	<< answer
+	<<std::endl;
 
 	return 0;
 }

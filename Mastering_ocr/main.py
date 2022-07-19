@@ -22,3 +22,4 @@ denoiser(path_to_dirty_image,path_to_clean_image)
 text = read('/home/paindr/Desktop/Personnal_project/Mastering_ocr/Screenshot at 2022-04-29 17-41-15.png')
 
 print(text)
+cv2.waitKey(0)
